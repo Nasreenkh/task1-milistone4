@@ -1,0 +1,109 @@
+/* Basic Reset for Padding and Margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+    margin: 20px;
+    padding: 0;
+    color: #050303;
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+
+h2, h3 {
+    color: #1504a5;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Form Styling */
+form {
+    max-width: 600px;
+    background-color: rgb(166, 170, 219);
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 6px rgba(156, 35, 35, 0.877);
+    border: 1px solid #7c0c6d;
+}
+
+/* Legend Styles */
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Label Styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color:black;
+}
+
+/* Input, Textarea, and Select Styles */
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #181616;
+    font-size: 14px;
+    background-color: white;
+}
+
+/* Button Styles */
+button {
+    background-color: #3718e9;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #08090a;
+}
+
+/* Div Styling for Resume */
+#resume-display {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: rgb(240, 191, 240);
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 6px purple;
+    border: 1px solid #801212;
+    outline: none;
+}
+
+/* Paragraph Styles */
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Fieldset Styles */
+fieldset {
+    border: 1px solid #0b0c0c;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
